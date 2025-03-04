@@ -11,10 +11,6 @@
 
 
 
-/* .full-width {
-    width: 100vh;
-} */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -120,7 +116,6 @@ body {
 
 .social-media,
 .contact {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +133,6 @@ body {
 
 
 .contact a {
-    color: #1db954;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -210,14 +204,13 @@ body {
 }
 
 .contact a {
-    /* width: 100%;
-    height: 100%;
-    justify-content: center; */
+    color: white;
 }
 
 .contact a i {
     padding: 0;
     margin: 0;
+    color: white;
 }
 
 .social-media a:hover,
