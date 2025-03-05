@@ -22,12 +22,21 @@ body {
 /* windows */
 
 .full-window-image {
+    /* position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
     position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .full-window {
@@ -37,12 +46,22 @@ body {
 }
 
 .full-window-image.bus-top-image {
-    background: url('bg.jpg') no-repeat center center/cover;
+    /* background: url('bg.jpg') no-repeat center center/cover; */
+    background-image: url('bg.jpg');
+
 }
 
 .full-window-image.logo {
-    background: url('brand_logo.jpg') no-repeat center center/cover;
-    /* height: 50vh; */
+    /* background: url('brand_logo.jpg') no-repeat center center/cover; */
+    background-image: url('brand_logo.jpg');
+
+}
+
+@media (max-width: 768px) {
+    .full-window-image {
+        height: auto;
+        min-height: 100vh;
+    }
 }
 
 .quarter-window {
