@@ -44,7 +44,7 @@ body {
 
 .quarter-window {
     position: relative;
-    height: 25vh;
+    height: 33.33333333vh;
     display: flex;
     justify-content: center;
     align-items: center;
